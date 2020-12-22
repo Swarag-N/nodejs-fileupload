@@ -1,0 +1,21 @@
+<% include ../partials/header %>
+<div class="card">
+    <div class="card-header text-center">
+      Employees
+    </div>
+    <ul class="list-group list-group-flush">
+        <% emp.forEach((employee) => { %>
+            <li class="list-group-item">
+                <code><%=employee.eid %></code>
+                <div class="text-right">
+                    <a href="/app/download/<%=employee._id%>" class="btn btn-success">Download</a>
+                    <a href="/app/delete/<%=employee._id%>" class="btn btn-danger">Delete</a>
+                </div>
+            </li>
+        <% }); %>
+    </ul>
+    <div class="card-footer text-muted  text-center">
+        <a href="/app/upload" class="btn btn-primary ">Upload</a>
+      </div>
+  </div>
+<% include ../partials/footer %>

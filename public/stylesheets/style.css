@@ -1,0 +1,18 @@
+body {
+  height: 100vh;
+  /* padding: 50px; */
+  position: relative;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+/* .container {
+   align-items: center;
+  justify-items: center; 
+   position: absolute;
+  top: 50%;
+  left: 50%;
+} */

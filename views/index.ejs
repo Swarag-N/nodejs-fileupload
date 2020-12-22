@@ -1,0 +1,27 @@
+<% include partials/header %>
+<!-- 
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+  </body>
+</html> -->
+
+<div class="jumbotron" style="margin-top: 3rem;">
+  <h1 class="display-4">ADMIN DASHBOARD!</h1>
+  <p class="lead"> Admins can bulk upload files with each file having an Employee ID as the file name and these files should be stored under the appropriate Employee Object in Mongo DB.</p>
+  <hr class="my-4">
+  <p> Files with invalid file names (non-employee ID file names) should not be accepted.
+    - Example Employee ID = E-001
+    - Example filename = E-001.pdf</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="/app" role="button">Try Application</a>
+  </p>
+</div>
+
+<% include partials/footer %>

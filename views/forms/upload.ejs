@@ -1,0 +1,21 @@
+<% include ../partials/header %>
+<div style="margin-top: 10rem;">
+  <h2 class="d-flex justify-content-center align-items-center flex-column" ><code>Upload Your Files</code></h2>
+  <form  action="/app/upload" enctype="multipart/form-data" method="post">
+    <div class="form-group">
+      <div class="d-flex justify-content-center align-items-center flex-column">
+        File(s):
+        <input
+          class="btn btn-primary"
+          type="file"
+          name="someExpressFiles"
+          multiple="multiple"
+          accept="application/pdf"
+        />
+        <br/>
+        <input class="d-flex justify-content-center align-items-center flex-column btn btn-success" type="submit" value="Upload" />
+      </div>
+    </div>
+  </form>
+</div>
+<% include ../partials/footer %>
