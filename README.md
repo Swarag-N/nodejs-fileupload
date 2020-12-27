@@ -2,6 +2,18 @@
 
 Admins can bulk upload files with each file having an Employee ID as the file name and these files should be stored under the appropriate Employee Object in Mongo DB.
 
+![Dashboard](screenshots/DASHBOARD.png)
+
+<details>
+
+<summary>More Screenshots</summary>
+
+![Batch Upload](screenshots/Batch-Upload.png)
+![HomePage](screenshots/HOMEPAGE.png)
+![Login](screenshots/Login.png)
+![Register](screenshots/Register.png)
+</details>
+
 ## Functionality
 
 - Admin Creates Employee By Uploading PDFs
